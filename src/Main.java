@@ -41,8 +41,7 @@ public class Main {
         System.out.println(TotalWeight);
         var Weightdifference = WeightOfTheSecondBoxer - WeightOfOneBoxer;
         System.out.println("Вес второго спортсмена больше на " + Weightdifference + " кг!" );
-        var WeightDifference = 4.5;
-        var overweight = (WeightOfTheSecondBoxer + WeightOfOneBoxer) % WeightDifference;
+        var overweight = WeightOfTheSecondBoxer % WeightOfOneBoxer;
         System.out.println(overweight);
 
 
