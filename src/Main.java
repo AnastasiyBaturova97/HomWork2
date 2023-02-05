@@ -39,13 +39,15 @@ public class Main {
         System.out.println(WeightOfTheSecondBoxer);
         var TotalWeight = WeightOfOneBoxer + WeightOfTheSecondBoxer;
         System.out.println(TotalWeight);
-        var Weightdifference = WeightOfTheSecondBoxer - WeightOfOneBoxer;
+        var Weightdifference = WeightOfTheSecondBoxer % WeightOfOneBoxer;
         System.out.println("Вес второго спортсмена больше на " + Weightdifference + " кг!" );
-        var overweight = WeightOfTheSecondBoxer % WeightOfOneBoxer;
-        System.out.println(overweight);
-
-
-
+        var totalTime = 640;
+        var timeOne = 8;
+        var Employees = totalTime / timeOne;
+        System.out.println( "Всего работников в компании " + Employees + " человек");
+        Employees = Employees + 94;
+        var HowManyHours  = Employees * 8;
+        System.out.println("Если в компании работает " + Employees + " человека, то всего " + HowManyHours + " часов работы может быть поделено между сотрудниками");
 
 
 
